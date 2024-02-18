@@ -15,13 +15,13 @@
     
         <form id="survey-form">
     
-            <fieldset id="texts">
+            <fieldset>
                 <label for="name" id="name-label">Name <input id="name" name="name" type="text"
                         placeholder="Enter your Name" required /></label>
                 <label for="email" id="email-label">Email <input id="email" name="email" type="email"
                         placeholder="Enter your Email" required /></label>
-                <label for="age" id="age-label">Age (Optional) <input id="age" name="age" type="number" min="10" max="100"
-                        placeholder="Age" /></label>
+                <label for="number" id="number-label">Age <input id="number" name="number" type="number" min="10" max="100"
+                        placeholder="Enter your Age" required /></label>
             </fieldset>
     
             <fieldset>
@@ -45,7 +45,7 @@
             </fieldset>
     
             <fieldset>
-                <legend>What are your interests when it comes to programming? (Check all that apply)</legend>
+                <legend>What are your interests when it comes to programming?</legend>
                 <label for="Front-end"><input type="checkbox" name="Front-end" id="Front-end" value="1">
                     Front-end development</label>
                 <label for="Back-end"><input type="checkbox" name="Back-end" id="Back-end" value="2">
@@ -72,8 +72,8 @@
     
             <fieldset>
                 <label for="text-area">What are your overall thoughts and experiences with programming?
-                    <textarea id="motivates" name="motivates" rows="3" cols="30"
-                        placeholder="Programming is great..."></textarea>
+                    <textarea id="text-area" name="text-area" rows="3" cols="30"
+                        placeholder="Programming is great..." ></textarea>
                 </label>
             </fieldset>
             <input type="submit" value="Submit" id="submit" />
