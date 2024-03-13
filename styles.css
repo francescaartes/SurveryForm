@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
+  }
+  
+  body {
     font-family: sans-serif;
     background-image: url(https://www.siteuptime.com/blog/wp-content/uploads/2021/07/a70e911d1e1f00197ebaa00b51c8519d.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
     height: auto;
-}
-
-.container {
+  }
+  
+  .container {
     min-width: 300px;
     max-width: 700px;
     margin: 10vh auto 0;
@@ -21,33 +21,35 @@ body {
     color: rgb(255, 254, 254);
     background-color: rgba(0, 0, 0, 0.89);
     border: none;
-}
-
-@media (max-width: 426px) {
+  }
+  
+  @media (max-width: 426px) {
     .container {
-        width: 100%;
-        margin: 0;
-        padding: 2vh;
+      width: 100%;
+      margin: 0;
+      padding: 2vh;
     }
-    label, legend, input {
-        font-size: 1.2rem;
+    label,
+    legend,
+    input {
+      font-size: 1.2rem;
     }
-}
-
-#title {
+  }
+  
+  #title {
     font-size: 2rem;
     text-align: center;
     padding-top: 5vh;
-}
-
-#description {
+  }
+  
+  #description {
     text-align: center;
     font-size: 1.2rem;
     font-style: italic;
     padding: 1vh 1vw;
-}
-
-#survey-form {
+  }
+  
+  #survey-form {
     display: flex;
     flex-direction: column;
     gap: 5vh;
@@ -55,51 +57,56 @@ body {
     padding-left: 5vh;
     padding-right: 5vh;
     padding-top: 5vh;
-}
-
-fieldset {
+  }
+  
+  fieldset {
     border: none;
     font-size: 1.5rem;
     display: flex;
     flex-direction: column;
-}
-
-fieldset legend {
+  }
+  
+  fieldset legend {
     margin: 2vh 0;
-}
-
-#name, #email, #number, #text-area, #dropdown {
+  }
+  
+  #name,
+  #email,
+  #number,
+  #text-area,
+  #dropdown {
     display: flex;
     width: 100%;
-    height: 6vh;
+    height: 2.5rem;
     font-size: 1rem;
-    padding: 3px;
+    padding: 0.5rem;
     margin: 10px auto;
-}
-
-#text-area {
+  }
+  
+  #text-area {
     width: 100%;
     height: 100px;
     min-height: 25px;
     max-height: 300px;
     resize: vertical;
     margin: 2vh 0;
-}
-
-input[type="radio"] {
+  }
+  
+  input[type="radio"] {
     margin: 0 20px 10px 3px;
     transform: scale(1.2);
-}
-
-input[type="checkbox"] {
+  }
+  
+  input[type="checkbox"] {
     transform: scale(1.2);
     margin: 0 14px 10px 3px;
-}
-
-#submit {
+  }
+  
+  #submit {
     background-color: rgba(82, 194, 99, 0.89);
     padding: 5px;
     font-size: 1.2rem;
     color: white;
     margin: auto 0;
-}
+  }
+  
